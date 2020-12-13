@@ -1,0 +1,25 @@
+.container{
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F9FF;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #2699FB;
+}
+
+p{
+    margin: 5px 20px;
+    padding: 3px;
+}
+
+.comment-author{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.comment-text{
+    font-style: italic;
+    font-size: 1rem;
+}
