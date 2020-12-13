@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/postwall/static/css/main.8af540fc.chunk.css",
+    "main.js": "/postwall/static/js/main.918656cc.chunk.js",
+    "main.js.map": "/postwall/static/js/main.918656cc.chunk.js.map",
+    "runtime-main.js": "/postwall/static/js/runtime-main.12ef51b0.js",
+    "runtime-main.js.map": "/postwall/static/js/runtime-main.12ef51b0.js.map",
+    "static/js/2.ac3d270b.chunk.js": "/postwall/static/js/2.ac3d270b.chunk.js",
+    "static/js/2.ac3d270b.chunk.js.map": "/postwall/static/js/2.ac3d270b.chunk.js.map",
+    "index.html": "/postwall/index.html",
+    "static/css/main.8af540fc.chunk.css.map": "/postwall/static/css/main.8af540fc.chunk.css.map",
+    "static/js/2.ac3d270b.chunk.js.LICENSE.txt": "/postwall/static/js/2.ac3d270b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12ef51b0.js",
+    "static/js/2.ac3d270b.chunk.js",
+    "static/css/main.8af540fc.chunk.css",
+    "static/js/main.918656cc.chunk.js"
+  ]
+}
