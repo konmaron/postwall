@@ -1,17 +1,15 @@
 import React from 'react';
-import Posts from "./components/posts/Posts";
+import PostList from "./components/postList/PostList";
 import withAppContext from "./context/withAppContext";
-import WholePost from "./components/wholePost/WholePost";
+import WholePost from "./components/postView/PostView";
 import Header from "./components/header/Header";
 
 function App({context}){
     return(
         <>
             <Header/>
-            {context.path === '/posts' && <Posts/>}
-            {context.path === '/post0' && <WholePost index='0'/>}
-            {context.path === '/post1' && <WholePost index='1'/>}
-            {context.path === '/post2' && <WholePost index='2'/>}
+            {context.path === 'list' && <PostList posts={context.posts}/>}
+            {context.path === 'view' && <WholePost post={context.currentPath}/>}
         </>
     )
 }

@@ -3,40 +3,40 @@ import React from 'react';
 
 export default class AppContextProvider extends React.Component{
     state = {
-        path: '/home',
         posts: getPosts(),
-        // index: 0,
-        // comments: getPosts()[1].comments
+        path: 'list',
+        currentPath: null
     }
 
-    changePath = (path) => {
-        this.setState({path})
+    rowClickHandler = id => {
+        this.setState({
+            path: 'view',
+            currentPath: {...this.state.posts.find(post => {return post.postId === id})}
+        });
     }
 
-    addComment = (author, text, index) => {
-        this.setState({index: index});
-        this.setState({comments: [...this.state.posts[index].comments, {author, text}]})
-        this.state.posts[index].comments = [...this.state.posts[index].comments, {author, text}];
+    goToPath = path => {
+        this.setState({path, currentPath: null});
     }
 
-    submitHandler = (event) => {
-        event.preventDefault();
-        let index = +document.activeElement.id;
-        this.addComment(event.target.inpAuthor.value, event.target.inpText.value, index);
-        event.target.inpAuthor.value = '';
-        event.target.inpText.value = '';
+    addComment = (id, comment) => {
+        const index = this.state.posts.findIndex(post => post.postId === id);
+        const arr = [...this.state.posts[index].comments, comment];
+        const postsTmp = [...this.state.posts];
+        postsTmp[index] = {...postsTmp[index], comments: arr};
+        this.setState({posts: [...postsTmp], currentPath: {...postsTmp[index]}});
     }
 
     render(){
         return(
             <div className='container'>
                 <Context.Provider value={{
-                    path: this.state.path,
-                    changePath: this.changePath,
-                    posts: this.state.posts,
+                    rowClickHandler: this.rowClickHandler,
                     addComment: this.addComment,
-                    submitHandler: this.submitHandler,
-                    // comments: this.state.comments
+                    goToPath: this.goToPath,
+                    posts: this.state.posts,
+                    path: this.state.path,
+                    currentPath: this.state.currentPath
                 }}>
                     {this.props.children}
                 </Context.Provider>

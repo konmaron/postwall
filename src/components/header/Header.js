@@ -5,7 +5,7 @@ function Header({context}){
     return (
         <div className={classes.header}>
             <ul className={classes['header-nav']}>
-                <li onClick={() => context.changePath('/posts')}>Posts</li>
+                <li onClick={() => context.goToPath('list')}>Back</li>
             </ul>
         </div>
     )
