@@ -1,6 +1,6 @@
 import Post from "../postRow/PostRow";
 
-export default function PostList({posts}){
+export default function PostList({posts, props}){
     return (
         <div>
             {posts.map(post =>

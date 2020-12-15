@@ -11,12 +11,12 @@
     background-color: #2699FB;
 }
 
-.header-nav li {
+a {
     margin-right: 15px;
     color: #fff;
 }
 
-.header-nav li:hover{
+a:hover{
     cursor: pointer;
     color: #fff;
     text-decoration: underline;

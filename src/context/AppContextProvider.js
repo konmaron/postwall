@@ -4,13 +4,13 @@ import React from 'react';
 export default class AppContextProvider extends React.Component{
     state = {
         posts: getPosts(),
-        path: 'list',
+        path: '/list',
         currentPath: null
     }
 
     rowClickHandler = id => {
         this.setState({
-            path: 'view',
+            path: '/view',
             currentPath: {...this.state.posts.find(post => {return post.postId === id})}
         });
     }

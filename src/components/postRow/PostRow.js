@@ -1,9 +1,10 @@
 import classes from './PostRow.module.css';
 import withAppContext from "../../context/withAppContext";
+import {Link} from 'react-router-dom';
 
-function PostRow({id, author, title, desc, date, commentCount, context}){
+function PostRow({id, author, title, desc, date, commentCount, context, props}){
     return (
-        <a onClick={() => context.rowClickHandler(id)}>
+        <Link to='/view' onClick={() => context.rowClickHandler(id)}>
             <div className={classes.container}>
                 <div className={classes['post-data']}>
                     <span className={classes['post-author']}>{author}</span>
@@ -17,7 +18,7 @@ function PostRow({id, author, title, desc, date, commentCount, context}){
                     <p className={classes['comments-counter']}>Comments: {commentCount}</p>
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }
 
