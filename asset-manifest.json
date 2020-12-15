@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/postwall/static/css/main.0e4755ba.chunk.css",
-    "main.js": "/postwall/static/js/main.64fcd485.chunk.js",
-    "main.js.map": "/postwall/static/js/main.64fcd485.chunk.js.map",
+    "main.css": "/postwall/static/css/main.296df110.chunk.css",
+    "main.js": "/postwall/static/js/main.f3afffc2.chunk.js",
+    "main.js.map": "/postwall/static/js/main.f3afffc2.chunk.js.map",
     "runtime-main.js": "/postwall/static/js/runtime-main.12ef51b0.js",
     "runtime-main.js.map": "/postwall/static/js/runtime-main.12ef51b0.js.map",
-    "static/js/2.8f53a03b.chunk.js": "/postwall/static/js/2.8f53a03b.chunk.js",
-    "static/js/2.8f53a03b.chunk.js.map": "/postwall/static/js/2.8f53a03b.chunk.js.map",
+    "static/js/2.fb443a6f.chunk.js": "/postwall/static/js/2.fb443a6f.chunk.js",
+    "static/js/2.fb443a6f.chunk.js.map": "/postwall/static/js/2.fb443a6f.chunk.js.map",
     "index.html": "/postwall/index.html",
-    "static/css/main.0e4755ba.chunk.css.map": "/postwall/static/css/main.0e4755ba.chunk.css.map",
-    "static/js/2.8f53a03b.chunk.js.LICENSE.txt": "/postwall/static/js/2.8f53a03b.chunk.js.LICENSE.txt"
+    "static/css/main.296df110.chunk.css.map": "/postwall/static/css/main.296df110.chunk.css.map",
+    "static/js/2.fb443a6f.chunk.js.LICENSE.txt": "/postwall/static/js/2.fb443a6f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.12ef51b0.js",
-    "static/js/2.8f53a03b.chunk.js",
-    "static/css/main.0e4755ba.chunk.css",
-    "static/js/main.64fcd485.chunk.js"
+    "static/js/2.fb443a6f.chunk.js",
+    "static/css/main.296df110.chunk.css",
+    "static/js/main.f3afffc2.chunk.js"
   ]
 }
