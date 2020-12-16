@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/postwall/static/css/main.296df110.chunk.css",
+    "main.css": "/postwall/static/css/main.424c6792.chunk.css",
     "main.js": "/postwall/static/js/main.f7f69500.chunk.js",
     "main.js.map": "/postwall/static/js/main.f7f69500.chunk.js.map",
     "runtime-main.js": "/postwall/static/js/runtime-main.12ef51b0.js",
@@ -8,13 +8,13 @@
     "static/js/2.fb443a6f.chunk.js": "/postwall/static/js/2.fb443a6f.chunk.js",
     "static/js/2.fb443a6f.chunk.js.map": "/postwall/static/js/2.fb443a6f.chunk.js.map",
     "index.html": "/postwall/index.html",
-    "static/css/main.296df110.chunk.css.map": "/postwall/static/css/main.296df110.chunk.css.map",
+    "static/css/main.424c6792.chunk.css.map": "/postwall/static/css/main.424c6792.chunk.css.map",
     "static/js/2.fb443a6f.chunk.js.LICENSE.txt": "/postwall/static/js/2.fb443a6f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.12ef51b0.js",
     "static/js/2.fb443a6f.chunk.js",
-    "static/css/main.296df110.chunk.css",
+    "static/css/main.424c6792.chunk.css",
     "static/js/main.f7f69500.chunk.js"
   ]
 }
