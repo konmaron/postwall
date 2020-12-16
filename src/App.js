@@ -10,6 +10,7 @@ function App({context}){
         <>
             <Header/>
             <Switch>
+                <Route path='/postwall' exact render={() => <PostList posts={context.posts}/>}/>
                 <Route path='/list' exact render={() => <PostList posts={context.posts}/>}/>
                 <Route path='/view' render={() => <PostView post={context.currentPath}/>}/>
                 <Route path='**' render={() => <h2>404 Not Found</h2>}/>
